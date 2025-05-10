@@ -1,7 +1,7 @@
 package meshtool
 
 import (
-	"buf.build/gen/go/meshtastic/protobufs/protocolbuffers/go/meshtastic"
+	"github.com/rabarar/meshtastic"
 )
 
 type Node struct {

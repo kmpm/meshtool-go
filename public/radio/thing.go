@@ -1,6 +1,8 @@
 package radio
 
-import "buf.build/gen/go/meshtastic/protobufs/protocolbuffers/go/meshtastic"
+import (
+	"github.com/rabarar/meshtastic"
+)
 
 // Something is something created to track keys for packet decrypting
 type Something struct {
