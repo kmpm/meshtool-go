@@ -4,7 +4,7 @@ import (
 	"encoding/base64"
 	"fmt"
 
-	"buf.build/gen/go/meshtastic/protobufs/protocolbuffers/go/meshtastic"
+	meshtastic "github.com/kmpm/meshtastic-protobufs.go/v2/generated"
 	"google.golang.org/protobuf/proto"
 )
 

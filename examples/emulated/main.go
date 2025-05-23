@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"buf.build/gen/go/meshtastic/protobufs/protocolbuffers/go/meshtastic"
 	"github.com/charmbracelet/log"
+	meshtastic "github.com/kmpm/meshtastic-protobufs.go/v2/generated"
 	"github.com/kmpm/meshtool-go/public/emulated"
 	"github.com/kmpm/meshtool-go/public/meshtool"
 	"github.com/kmpm/meshtool-go/public/mqtt"

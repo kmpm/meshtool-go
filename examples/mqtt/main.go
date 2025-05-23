@@ -7,8 +7,8 @@ import (
 	"flag"
 	"strings"
 
-	"buf.build/gen/go/meshtastic/protobufs/protocolbuffers/go/meshtastic"
 	"github.com/charmbracelet/log"
+	meshtastic "github.com/kmpm/meshtastic-protobufs.go/v2/generated"
 	"github.com/kmpm/meshtool-go/public/mqtt"
 	"github.com/kmpm/meshtool-go/public/radio"
 	"google.golang.org/protobuf/proto"
@@ -52,11 +52,14 @@ func channelHandler(channel string, key []byte) mqtt.HandlerFunc {
 			return
 		}
 
-		if !env.HasPacket() {
-			log.Error("no packet in envelope", "payload", hex.EncodeToString(m.Payload))
+		pkt := env.GetPacket()
+
+		if pkt == nil {
+			log.Error("not a service data envelope", "payload", hex.EncodeToString(m.Payload))
 			return
 		}
-		messagePtr, err := radio.TryDecode(env.Packet, key)
+
+		messagePtr, err := radio.TryDecode(pkt, key)
 		if err != nil {
 			log.Error("failed to decode packet", "err", err, "payload", hex.EncodeToString(m.Payload))
 			return

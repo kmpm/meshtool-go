@@ -1,6 +1,6 @@
 package mqtt
 
-import "buf.build/gen/go/meshtastic/protobufs/protocolbuffers/go/meshtastic"
+import meshtastic "github.com/kmpm/meshtastic-protobufs.go/v2/generated"
 
 // Node implements a meshtastic node that connects only via MQTT
 type Node struct {

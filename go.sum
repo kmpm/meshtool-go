@@ -1,5 +1,3 @@
-buf.build/gen/go/meshtastic/protobufs/protocolbuffers/go v1.36.6-20241006120827-cc36fd21e859.1 h1:Ag4IzW2iiMayjuSOHoOqXFBzQkvDTPI2Kn49Gpfzufc=
-buf.build/gen/go/meshtastic/protobufs/protocolbuffers/go v1.36.6-20241006120827-cc36fd21e859.1/go.mod h1:Pb99t5VcAbgWOAT8d5toGlg6s1YcrNxVv3R3MIphhxI=
 github.com/aymanbagabas/go-osc52/v2 v2.0.1 h1:HwpRHbFMcZLEVr42D4p7XBqjyuxQH5SMiErDT4WkJ2k=
 github.com/aymanbagabas/go-osc52/v2 v2.0.1/go.mod h1:uYgXzlJ7ZpABp8OJ+exZzJJhRNQ2ASbcXHWsFqH8hp8=
 github.com/charmbracelet/colorprofile v0.3.0 h1:KtLh9uuu1RCt+Hml4s6Hz+kB1PfV3wi++1h5ia65yKQ=
@@ -26,6 +24,8 @@ github.com/google/go-cmp v0.6.0 h1:ofyhxvXcZhMsU5ulbFiLKl/XBFqE1GSq7atu8tAmTRI=
 github.com/google/go-cmp v0.6.0/go.mod h1:17dUlkBOakJ0+DkrSSNjCkIjxS6bF9zb3elmeNGIjoY=
 github.com/gorilla/websocket v1.5.3 h1:saDtZ6Pbx/0u+bgYQ3q96pZgCzfhKXGPqt7kZ72aNNg=
 github.com/gorilla/websocket v1.5.3/go.mod h1:YR8l580nyteQvAITg2hZ9XVh4b55+EU/adAjf1fMHhE=
+github.com/kmpm/meshtastic-protobufs.go/v2 v2.6.5-r1 h1:XIQLqGwwh7aNKkI68jjEF33tbRukPqGyAjx7YRLIQHU=
+github.com/kmpm/meshtastic-protobufs.go/v2 v2.6.5-r1/go.mod h1:FEy3xyT89lQBjOuXeq8n/Vxb60MzxpVo/ZynrNIIU70=
 github.com/lucasb-eyer/go-colorful v1.2.0 h1:1nnpGOrhyZZuNyfu1QjKiUICQ74+3FNCN69Aj6K7nkY=
 github.com/lucasb-eyer/go-colorful v1.2.0/go.mod h1:R4dSotOR9KMtayYi1e77YzuveK+i7ruzyGqttikkLy0=
 github.com/mattn/go-isatty v0.0.20 h1:xfD0iDuEKnDkl03q4limB+vH+GxLEtL/jb4xVJSWWEY=

@@ -1,13 +1,11 @@
 module github.com/kmpm/meshtool-go
 
-go 1.24
-
-toolchain go1.24.2
+go 1.24.3
 
 require (
-	buf.build/gen/go/meshtastic/protobufs/protocolbuffers/go v1.36.6-20241006120827-cc36fd21e859.1
 	github.com/charmbracelet/log v0.4.1
 	github.com/eclipse/paho.mqtt.golang v1.5.0
+	github.com/kmpm/meshtastic-protobufs.go/v2 v2.6.5-r1
 	github.com/stretchr/testify v1.10.0
 	go.bug.st/serial v1.6.4
 	golang.org/x/sync v0.13.0

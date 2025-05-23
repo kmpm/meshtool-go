@@ -5,7 +5,7 @@ import (
 	"net"
 	"testing"
 
-	"buf.build/gen/go/meshtastic/protobufs/protocolbuffers/go/meshtastic"
+	meshtastic "github.com/kmpm/meshtastic-protobufs.go/v2/generated"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/sync/errgroup"
 	"google.golang.org/protobuf/proto"
