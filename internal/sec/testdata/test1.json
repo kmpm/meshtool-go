@@ -1,0 +1,30 @@
+{
+    "subject": "v2.envelope.packet.LongFast.!da6369c8",
+    "headers": {
+        "mesh-gateway-id": "!da6369c8",
+        "mesh-region": "EU_868/SE/Dalsland",
+        "mesh-source": "parse_envelope;from_mqtt",
+        "mesh-topic": "msh/EU_868/SE/Dalsland/2/e/LongFast/!da6369c8",
+        "ce-datacontenttype": "application/json",
+        "ce-type": "meshtastic.ServiceEnvelope",
+        "mesh-channel-id": "LongFast",
+        "mesh-from": 3244483888
+    },
+    "data": {
+        "packet": {
+            "from": 3244483888,
+            "to": 4294967295,
+            "channel": 8,
+            "encrypted": "3VFsFwqgIOQq5l9cxMbrF7ZVzgMpfrIhLWDGF40Pn3Bl",
+            "id": 1146368586,
+            "rxTime": 1748365563,
+            "rxSnr": 6.25,
+            "hopLimit": 3,
+            "rxRssi": -55,
+            "hopStart": 3,
+            "relayNode": 48
+        },
+        "channelId": "LongFast",
+        "gatewayId": "!da6369c8"
+    }
+}
